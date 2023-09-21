@@ -1,0 +1,12 @@
+name=input("Enter your Name:")
+name1=input("Enter your Name:")
+x=int(input("Enter your Age:"))
+y=int(input("Enter your Age:"))
+if x>y:
+    print(name,"Older than",name1)
+else:
+    print(name1,"Elder than",name)
+if x==y:
+    print(name,"is as same age as",name1)
+else:
+    print(name1,"is not same age",name)
