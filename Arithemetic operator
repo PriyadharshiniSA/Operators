@@ -1,0 +1,10 @@
+mark=int(input("Enter the mark:"))
+mark1=int(input("Enter the mark:"))
+sum=mark+mark1
+sub=mark-mark1
+mul=mark*mark
+div=mark/mark1
+mod=mark%mark1
+exp=mark**mark1
+floor=mark//mark1
+print("\nAddiction mark is:",sum,"\nSubraction mark is:",sub,"\nMultiplication mark is:",mul,"\nDivision mark is:",div,"\nModulus mark is:",mod,"\nExponent mark is:",exp,"\nFloor division mark is:",floor)
